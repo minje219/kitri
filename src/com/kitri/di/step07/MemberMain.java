@@ -16,7 +16,7 @@ public class MemberMain {
 		MemberDao memberDao = context.getBean("mdao",MemberDao.class);
 		MemberDao memberDao2 = context.getBean("mdao",MemberDao.class);
 		
-		
+		int a=0;
 		MemberDto memberDto = new MemberDto();
 		memberDto.setId("minje219");
 		memberDto.setName("±ËπŒ¿Á");
